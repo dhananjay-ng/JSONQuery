@@ -1,0 +1,10 @@
+{
+  "query":["select","student"],
+  "query2":["select","manager"],
+  "components":{
+    "select":["select top 10 * from"],
+    "student":["student where name =",":name"],
+    "manager":["manager where name =",":name"],
+    "account":["account where name =",":name"]
+  }
+}
